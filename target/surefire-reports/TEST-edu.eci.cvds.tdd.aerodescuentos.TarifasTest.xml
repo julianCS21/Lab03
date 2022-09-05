@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.eci.cvds.AppTest" time="0.061" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0.073" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,8 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\JULIAN~1\AppData\Local\Temp\surefire2082453960774428958\surefirebooter10833851716912846319.jar C:\Users\julian pc\AppData\Local\Temp\surefire2082453960774428958 2022-09-04T17-52-38_357-jvmRun1 surefire13722954984139577273tmp surefire_02435599893510818465tmp"/>
+    <property name="sun.java.command" value="C:\Users\JULIAN~1\AppData\Local\Temp\surefire17114860960435062826\surefirebooter7633747823033839427.jar C:\Users\julian pc\AppData\Local\Temp\surefire17114860960435062826 2022-09-04T20-26-00_397-jvmRun1 surefire4145454383372068312tmp surefire_012831383220849984151tmp"/>
     <property name="jdk.debug" value="release"/>
+    <property name="test" value="TarifasTest"/>
     <property name="surefire.test.class.path" value="D:\Estudio\Julian_Castillo\CVDS\Lab03\target\test-classes;D:\Estudio\Julian_Castillo\CVDS\Lab03\target\classes;C:\Users\julian pc\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\julian pc\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\julian pc\.m2\repository\edu\eci\cvds\tdd\aerodescuentos\1.0.0\aerodescuentos-1.0.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\julian pc"/>
@@ -30,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\JULIAN~1\AppData\Local\Temp\surefire2082453960774428958\surefirebooter10833851716912846319.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\JULIAN~1\AppData\Local\Temp\surefire17114860960435062826\surefirebooter7633747823033839427.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="18.0.2.1+1-1"/>
@@ -56,5 +57,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="edu.eci.cvds.AppTest" time="0.006"/>
+  <testcase name="IfAgeisGreaterThan65ShouldCalculate" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0.006"/>
+  <testcase name="IfDaysAreLessThan21ShouldNotChange" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0"/>
+  <testcase name="IfTheAgeIsMostThan100ShouldThrowAnException" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0"/>
+  <testcase name="ifAgeIsGreaterThan0andLessThan18ShouldCalculate" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0"/>
+  <testcase name="IfDaysAreNegativesShouldThrowAnException" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0.001"/>
+  <testcase name="ifTheRateIsCorrectShouldCalculate" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0"/>
+  <testcase name="IfTheAgeIsNegativeShouldThrowAnException" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0.001"/>
+  <testcase name="IfRateIsNegativeShouldThrowAnException" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0"/>
+  <testcase name="IfAgeisGreaterThan18andLessThan66ShouldNotChange" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0"/>
+  <testcase name="IfDaysAreGreaterThan20ShouldCalculate" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0.001"/>
 </testsuite>

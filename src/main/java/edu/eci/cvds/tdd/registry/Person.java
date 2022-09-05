@@ -14,6 +14,9 @@ public class Person {
 
     private boolean alive;
 
+
+    private Gender gender;
+
     /*** The class' default constructor*/
     public Person() {
         super();
@@ -24,7 +27,7 @@ public class Person {
         this.name = name;
         this.id = id;
         this.age = age;
-        //this.gender = gender;
+        this.gender = gender;
         this.alive = alive;
     }
 
